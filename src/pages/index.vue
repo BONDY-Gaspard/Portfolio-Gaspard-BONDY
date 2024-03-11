@@ -4,7 +4,6 @@
 
 <template>
     <Header />
-        <div>
             <div class="w-[261px] h-[102.67px] relative mt-5">
                 <div class="w-[250.44px] h-[102.67px] left-[10.56px] top-[-0px] absolute bg-white rounded-[22.07px] shadow-xl"></div>
                 <img class="left-7 top-6 absolute" src="/src/img/aurevoir.png" />
@@ -21,14 +20,14 @@
             <img src="/src/img/multimedia.webp" alt="illustration multimedia" class="ml-10">
             <img src="/src/img/communication.webp" alt="illustration multimedia" class="-mt-24 ml-60">
             <div class="relative mx-5">
-                <img src="/src/img/gaspard.webp" alt="Photo Gaspard" class="absolute">
+                <img src="/src/img/gaspard.webp" alt="Photo Gaspard" class="absolute -mt-14">
                 <div class="w-[341.68px] h-[341.68px] bg-gradient-to-r from-slate-200 via-slate-200 to-slate-300 rounded-full shadow m-auto"></div>
             </div>
-            <div class="w-[35px] h-[35px] relative m-auto animate-bounce">
+            <div class="w-[35px] h-[35px] relative m-auto animate-bounce -mt-10 lg:hidden">
                 <RouterLink to="#">
                 <div class="w-[35px] h-[35px] left-0 top-0 absolute bg-white rounded-full"></div>
                 <img class="w-[21px] h-[21px] left-[7px] top-[7px] absolute" src="/src/img/fleche-bas.svg"/>
                 </RouterLink>
             </div>
-        </div>
+    <Footer class="mt-[50px]" />
 </template>
