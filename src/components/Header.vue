@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { watch } from 'vue'
+import { useRouter } from 'vue-router'
 
 const menuIsOpen = ref(false)
+const router = useRouter()
 
 watch(menuIsOpen, (newValue) => {
   if (newValue) {
@@ -10,6 +12,10 @@ watch(menuIsOpen, (newValue) => {
   } else {
     document.body.classList.remove('overflow-hidden')
   }
+})
+
+router.afterEach(() => {
+  menuIsOpen.value = false
 })
 
 </script>
@@ -32,10 +38,10 @@ watch(menuIsOpen, (newValue) => {
             <img src="/src/img/croix-menu.webp" alt="croix" class="size-16 mr-0 ml-auto cursor-pointer" @pointerdown="menuIsOpen = false">
                 <ul class="mx-5 text-white font-rubik font-bold text-3xl space-y-5 mt-36">
                     <li>
-                        <RouterLink to="#">
+                        <RouterLink to="/myprojects">
                             <div class="mx-5">
                                 <div class="flex items-center justify-between">
-                                    <p>MY PROJECT</p>
+                                    <p>MY PROJECTS</p>
                                     <img src="/src/img/fleche-menu.webp" alt="fleche menu 1" class="size-16">
                                 </div>
                                 <hr class="bg-white rounded-full h-1 -mt-1">

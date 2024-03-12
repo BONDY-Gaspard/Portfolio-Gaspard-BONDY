@@ -24,10 +24,10 @@
                 <div class="w-[341.68px] h-[341.68px] bg-gradient-to-r from-slate-200 via-slate-200 to-slate-300 rounded-full shadow m-auto"></div>
             </div>
             <div class="w-[35px] h-[35px] relative m-auto animate-bounce -mt-10 lg:hidden">
-                <RouterLink to="#">
+                <RouterLink to="/myprojects">
                 <div class="w-[35px] h-[35px] left-0 top-0 absolute bg-white rounded-full"></div>
                 <img class="w-[21px] h-[21px] left-[7px] top-[7px] absolute" src="/src/img/fleche-bas.svg"/>
                 </RouterLink>
             </div>
-    <Footer class="mt-[50px]" />
+    <Footer class="mt-[50px]"/>
 </template>
