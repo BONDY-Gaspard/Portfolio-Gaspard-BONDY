@@ -1,6 +1,17 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { watch } from 'vue'
+
 const menuIsOpen = ref(false)
+
+watch(menuIsOpen, (newValue) => {
+  if (newValue) {
+    document.body.classList.add('overflow-hidden')
+  } else {
+    document.body.classList.remove('overflow-hidden')
+  }
+})
+
 </script>
 
 <template>
@@ -90,7 +101,7 @@ const menuIsOpen = ref(false)
                     </a>
                 </div>
             </div>
-            <p class="flex mt-40 justify-center text-white font-rubik text-sm">©2024 GASPARD BONDY</p>
+            <RouterLink to="#"><p class="flex mt-40 justify-center text-white font-rubik text-sm">©2024 GASPARD BONDY</p></RouterLink>
         </nav>
     </Transition>
 </template>
