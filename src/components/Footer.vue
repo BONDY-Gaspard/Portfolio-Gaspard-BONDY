@@ -17,7 +17,7 @@
                 <RouterLink to="/aboutme">
                     <li>About Me</li>
                 </RouterLink>
-                <RouterLink to="#">
+                <RouterLink to="/contact">
                     <li>Contact</li>
                 </RouterLink>
             </ul>

@@ -60,7 +60,7 @@ router.afterEach(() => {
                         </RouterLink>
                     </li>
                     <li>
-                        <RouterLink to="#">
+                        <RouterLink to="/contact">
                             <div class="mx-5">
                                 <div class="flex items-center justify-between">
                                     <p>CONTACT</p>
