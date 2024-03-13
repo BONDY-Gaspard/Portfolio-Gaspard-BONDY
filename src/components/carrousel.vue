@@ -32,7 +32,7 @@ const currentImage = computed(() => images.value[currentIndex.value]);
             <p class="text-sm">{{ currentImage.description }}</p>
         </div>
       </div>
-      <div class="controls mt-16 justify-between space-x-28 text-center">
+      <div class="mt-16 justify-between space-x-28 text-center">
         <button @click="prev" class="text-black opacity-50 hover:text-red-700 hover:opacity-100 font-bold py-2 px-4"><</button>
         <button @click="next" class="text-black opacity-50 hover:text-red-700 hover:opacity-100 font-bold py-2 px-4">></button>
       </div>
