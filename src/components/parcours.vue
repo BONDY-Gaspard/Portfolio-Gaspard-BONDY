@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="w-[226.93px] h-[226.97px] relative m-auto mb-12">
+    <div class="w-[226.93px] h-[226.97px] relative m-auto my-12">
     <div class="w-[61.08px] h-[61.08px] left-[165.86px] top-0 absolute group transition-transform duration-300 ease-in-out transform hover:scale-110">
         <div class="w-[61.08px] h-[61.08px] left-0 top-0 absolute bg-emerald-500 bg-opacity-25 rounded-full"></div>
         <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.66px] absolute" src="/src/img/about-me/figma.svg" />
