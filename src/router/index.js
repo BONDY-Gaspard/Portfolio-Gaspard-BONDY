@@ -4,6 +4,7 @@ import MyProjects from '@/pages/myprojects.vue'
 import AboutMe from '@/pages/aboutme.vue'
 import Contact from '@/pages/contact.vue'
 import LegalNotice from '@/pages/legalnotice.vue'
+import ProjectPage from '@/pages/projectpage.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,7 +13,8 @@ const router = createRouter({
     { path: '/myprojects', name:'myprojects', component: MyProjects },
     { path: '/aboutme', name:'aboutme', component: AboutMe },
     { path: '/contact', name:'contact', component: Contact },
-    { path: '/legalnotice', name:'legalnotice', component: LegalNotice }
+    { path: '/legalnotice', name:'legalnotice', component: LegalNotice },
+    { path: '/:projectName', name: 'projectpage', component: ProjectPage, props: true }
   ]
 })
 

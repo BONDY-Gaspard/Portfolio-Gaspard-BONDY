@@ -107,7 +107,7 @@ router.afterEach(() => {
                     </a>
                 </div>
             </div>
-            <RouterLink to="#"><p class="flex mt-40 justify-center text-white font-rubik text-sm">©2024 GASPARD BONDY</p></RouterLink>
+            <RouterLink to="/legalnotice"><p class="flex mt-40 justify-center text-white font-rubik text-sm">©2024 GASPARD BONDY</p></RouterLink>
         </nav>
     </Transition>
 </template>

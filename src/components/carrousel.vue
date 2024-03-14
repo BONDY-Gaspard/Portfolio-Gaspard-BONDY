@@ -2,10 +2,10 @@
 import { ref, computed } from 'vue';
 
 const images = ref([
-  { src: '/src/img/projet/refontemmi.webp', title: 'MMI redesign site', description: 'Project to redesign the Montbeliard MMI training website.' },
-  { src: '/src/img/projet/benevers.webp', title: 'Benevers', description: 'Project on the world of volunteering' },
-  { src: '/src/img/projet/backtoback.webp', title: 'Back To Back', description: 'Project inspired by the song "Note pour trop tard" by Orelsan' },
-  { src: '/src/img/projet/gaspardtex.webp', title: 'GaspardTex', description: 'Social networking content creation project' }
+  { src: '/src/img/projet/refontemmi.webp', title: 'MMI redesign site', description: 'Project to redesign the Montbeliard MMI', projectName: 'mmi-redesign' },
+  { src: '/src/img/projet/benevers.webp', title: 'Benevers', description: 'Project on the world of volunteering', projectName: 'benevers' },
+  { src: '/src/img/projet/backtoback.webp', title: 'Back To Back', description: 'Project inspired by the song "Note pour trop tard" by Orelsan', projectName: 'back-to-back' },
+  { src: '/src/img/projet/gaspardtex.webp', title: 'GaspardTex', description: 'Social networking content creation project', projectName: 'gaspardtex' }
 ]);
 
 const currentIndex = ref(0);
@@ -28,8 +28,9 @@ const currentImage = computed(() => images.value[currentIndex.value]);
       <div class="carousel">
         <img :src="currentImage.src" alt="Image carrousel" class="m-auto">
         <div class="mx-12 mt-5">
-            <h2 class="text-lg font-bold">{{ currentImage.title }}</h2>
-            <p class="text-sm">{{ currentImage.description }}</p>
+            <h2 class="text-xl font-bold font-rubik">{{ currentImage.title }}</h2>
+            <p class="text-base font-rubik">{{ currentImage.description }}</p>
+            <router-link :to="{ name: 'projectpage', params: { projectId: currentImage.id, projectName: currentImage.projectName } }" class="text-blue-500 hover:underline">En savoir plus</router-link>
         </div>
       </div>
       <div class="mt-16 justify-between space-x-28 text-center">

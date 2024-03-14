@@ -56,6 +56,6 @@
                 </div>
             </div>
         </nav>
-        <RouterLink to="#"><p class="flex mt-10 justify-center text-white font-rubik text-xs pb-10 opacity-50">©2024 GASPARD BONDY</p></RouterLink>
+        <RouterLink to="/legalnotice"><p class="flex mt-10 justify-center text-white font-rubik text-xs pb-10 opacity-50">©2024 GASPARD BONDY</p></RouterLink>
     </footer>
 </template>
