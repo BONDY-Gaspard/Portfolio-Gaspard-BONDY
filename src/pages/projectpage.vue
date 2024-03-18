@@ -24,12 +24,58 @@ const projects = [
       '/src/img/projet/redesign-mmi/pagecontenumobile.webp',
     ],
   },
-  // Autres projets
+  { 
+    name: 'benevers',
+    title: 'Benevers',
+    thumbnail: '/src/img/projet/benevers.webp',
+    description: "Our project aimed to create an online platform dedicated to volunteers and associations, with the goal of promoting volunteering and facilitating collaboration between the two parties. We embarked on a collective effort to revitalize the landscape of volunteering and associative engagement. Our objective was to envision a platform, focusing on both its aesthetics and functionality, while ensuring that its content addressed the current needs of the volunteer and associative community.",
+    images: [
+      '/src/img/projet/benevers/benevers-introduction.png',
+      '/src/img/projet/benevers/benevers-presentation.webp',
+      '/src/img/projet/benevers/createurs.png',
+      '/src/img/projet/benevers/elements-graphique.webp',
+      '/src/img/projet/benevers/couleurs.png',
+      '/src/img/projet/benevers/mock-up.png',
+      '/src/img/projet/benevers/siteweb.webp',
+      '/src/img/projet/benevers/page-accueil.webp',
+      '/src/img/projet/benevers/page-accueil-mobile.png',
+      '/src/img/projet/benevers/contenu-projet.webp',
+      '/src/img/projet/benevers/contenu.webp',
+      '/src/img/projet/benevers/missions.webp',
+      '/src/img/projet/benevers/interaction-communautaire.webp',
+      '/src/img/projet/benevers/reseaux-sociaux.png',
+      '/src/img/projet/benevers/call-to-action.webp',
+    ],
+  },
+  { 
+    name: 'back-to-back',
+    title: 'Back-To-Back (mobile)',
+    thumbnail: '/src/img/projet/backtoback.webp',
+    description: 'The Back To Back project aimed to create an online blog with various articles. Inspired by the song "Note pour trop tard" by Orelsan, the goal of this project was to write to our future selves. I undertook this individual endeavor.',
+    images: [
+      '/src/img/projet/backtoback/createurs.png',
+      '/src/img/projet/backtoback/elements-graphique.webp',
+      '/src/img/projet/backtoback/couleurs.png',
+      '/src/img/projet/backtoback/typographie.png',
+      '/src/img/projet/backtoback/siteweb.webp',
+      '/src/img/projet/backtoback/accueil.png',
+    ],
+  },
+  { 
+    name: 'gaspardtex',
+    title: 'GaspardTex',
+    thumbnail: '/src/img/projet/gaspardtex.webp',
+    description: 'GaspardTex, a creator of content on the various social networks',
+    images: [
+      '/src/img/projet/gaspardtex/youtube.webp',
+      '/src/img/projet/gaspardtex/twitch.webp',
+      '/src/img/projet/gaspardtex/tiktok.webp',
+    ],
+  },
 ];
 
 const project = projects.find(p => p.name === projectName);
 </script>
-
 
 <template>
     <Header />
