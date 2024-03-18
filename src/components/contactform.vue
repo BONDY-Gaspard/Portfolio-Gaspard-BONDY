@@ -14,26 +14,6 @@ const submitForm = () => {
 };
 </script>
 <template>
-    <!-- <form @submit.prevent="submitForm">
-      <div>
-        <label for="name" class="bg-none">Name:</label>
-        <input type="text" id="name" v-model="formData.name" required>
-      </div>
-      <div>
-        <label for="email">Email:</label>
-        <input type="email" id="email" v-model="formData.email" required>
-      </div>
-      <div>
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject" v-model="formData.subject">
-      </div>
-      <div>
-        <label for="message">Your message here:</label>
-        <textarea id="message" v-model="formData.message"></textarea>
-      </div>
-      <button type="submit">Submit</button>
-    </form> -->
-
     <form @submit.prevent="submitForm" class="mt-12 mx-16">
         <div class="space-y-6">
             <div class="relative z-0">
