@@ -21,14 +21,27 @@ router.afterEach(() => {
 </script>
 
 <template>
-    <header class="bg-slate-100 shadow-md h-[87px] flex items-center relative">
-        <nav>
-            <div class="flex items-center m-5 space-x-64">
-                <RouterLink to="/"><img src="/src/img/logo_portfolio.svg" alt="Logo Portfolio Gaspard BONDY" class="w-9 h-9 lg:w-auto lg:h-auto"></RouterLink>
-                <div class="w-9 h-9 relative" @pointerdown="menuIsOpen = !menuIsOpen">
-                    <div class="w-9 h-9 absolute bg-red-700 rounded-full"></div>
-                    <div class="w-5 left-2 top-3.5 absolute border border-white rounded-full"></div>
-                    <div class="w-5 left-2 top-5 absolute border border-white rounded-full"></div>
+    <header class="bg-slate-100 shadow-md h-[87px] flex items-center">
+        <nav class="w-full">
+            <div class="flex items-center justify-between m-5">
+                <RouterLink to="/"><img src="/src/img/logo_portfolio.svg" alt="Logo Portfolio Gaspard BONDY" class="w-9 h-9 lg:w-14 lg:h-14"></RouterLink>
+                <div class="hidden md:flex space-x-10 whitespace-nowrap">
+                    <RouterLink to="/myprojects">
+                        <p>MY PROJECT</p>
+                    </RouterLink>
+                    <RouterLink to="/aboutme">
+                        <p>ABOUT ME</p>
+                    </RouterLink>
+                    <RouterLink to="/contact">
+                        <p>CONTACT</p>
+                    </RouterLink>
+                </div>
+                <div class="flex">
+                    <div @pointerdown="menuIsOpen = !menuIsOpen" class="w-9 h-9 relative">
+                        <div class="w-9 h-9 bg-red-700 rounded-full"></div>
+                        <div class="w-5 left-2 top-3.5 absolute border border-white rounded-full"></div>
+                        <div class="w-5 left-2 top-5 absolute border border-white rounded-full"></div>
+                    </div>
                 </div>
             </div>
         </nav>
