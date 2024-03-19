@@ -84,43 +84,60 @@ router.afterEach(() => {
                         </RouterLink>
                     </li>
                 </ul>
-            <div class="flex space-x-20 mt-10 justify-center -ml-16">
-                <div class="flex">
+            <div class="flex space-x-5 mt-10 justify-center sm:hidden">
                     <a href="https://www.instagram.com/gaspardtex/" target="_blank">
-                        <img src="/src/img/logo-instagram.svg" alt="Logo instagram" class="absolute opacity-100 hover:opacity-0 size-16">
+                        <img src="/src/img/logo-instagram.svg" alt="Logo instagram" class="size-16">
                     </a>
+                    <a href="https://twitter.com/GaspardTex" target="_blank">
+                        <img src="/src/img/logo-x.svg" alt="Logo X" class="size-16">
+                    </a>
+            </div>
+            <div class="flex space-x-5 mt-5 justify-center sm:hidden">
+                    <a href="https://www.youtube.com/channel/UCLF_US4rxEGbDht_SYWZgwQ" target="_blank">
+                        <img src="/src/img/logo-youtube.svg" alt="Logo YouTube" class="size-16">
+                    </a>
+                    <a href="https://linktr.ee/gaspardtex" target="_blank">
+                        <img src="/src/img/logo-savoirplus.svg" alt="Logo en savoir plus" class="size-16">
+                    </a>
+            </div>
+            <!-- Icônes pour moyens et grands écrans : alignées horizontalement et centrées -->
+            <div class="hidden sm:flex justify-center items-center space-x-40 mt-32 w-full">
+                <div class="relative">
                     <a href="https://www.instagram.com/gaspardtex/" target="_blank">
-                        <img src="/src/img/logo-instagram-hover.svg" alt="Logo instagram sélectionné" class="absolute opacity-0 hover:opacity-100 size-16">
+                        <img src="/src/img/logo-instagram.svg" alt="Logo instagram" class="opacity-100 hover:opacity-0 size-28">
+                    </a>
+                    <a href="https://www.instagram.com/gaspardtex/" target="_blank" class="absolute inset-0">
+                        <img src="/src/img/logo-instagram-hover.svg" alt="Logo instagram sélectionné" class="opacity-0 hover:opacity-100 size-28">
                     </a>
                 </div>
-                <div class="flex">
+                <div class="relative">
                     <a href="https://twitter.com/GaspardTex" target="_blank">
-                        <img src="/src/img/logo-x.svg" alt="Logo X" class="absolute opacity-100 hover:opacity-0 size-16">
+                        <img src="/src/img/logo-x.svg" alt="Logo X" class="opacity-100 hover:opacity-0 size-28">
                     </a>
-                    <a href="https://twitter.com/GaspardTex" target="_blank">
-                        <img src="/src/img/logo-x-hover.svg" alt="Logo X sélectionné" class="absolute opacity-0 hover:opacity-100 size-16">
+                    <a href="https://twitter.com/GaspardTex" target="_blank" class="absolute inset-0">
+                        <img src="/src/img/logo-x-hover.svg" alt="Logo X sélectionné" class="opacity-0 hover:opacity-100 size-28">
+                    </a>
+                </div>
+                <div class="relative">
+                    <a href="https://www.youtube.com/channel/UCLF_US4rxEGbDht_SYWZgwQ" target="_blank">
+                        <img src="/src/img/logo-youtube.svg" alt="Logo YouTube" class="opacity-100 hover:opacity-0 size-28">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCLF_US4rxEGbDht_SYWZgwQ" target="_blank" class="absolute inset-0">
+                        <img src="/src/img/logo-youtube-hover.svg" alt="Logo YouTube sélectionné" class="opacity-0 hover:opacity-100 size-28">
+                    </a>
+                </div>
+                <div class="relative">
+                    <a href="https://linktr.ee/gaspardtex" target="_blank">
+                        <img src="/src/img/logo-savoirplus.svg" alt="Logo en savoir plus" class="opacity-100 hover:opacity-0 size-28">
+                    </a>
+                    <a href="https://linktr.ee/gaspardtex" target="_blank" class="absolute inset-0">
+                        <img src="/src/img/logo-savoirplus-hover.svg" alt="Logo en savoir plus sélectionné" class="opacity-0 hover:opacity-100 size-28">
                     </a>
                 </div>
             </div>
-            <div class="flex space-x-20 mt-20 justify-center -ml-16">
-                <div class="flex">
-                    <a href="https://www.youtube.com/channel/UCLF_US4rxEGbDht_SYWZgwQ" target="_blank">
-                        <img src="/src/img/logo-youtube.svg" alt="Logo YouTube" class="absolute opacity-100 hover:opacity-0 size-16">
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCLF_US4rxEGbDht_SYWZgwQ" target="_blank">
-                        <img src="/src/img/logo-youtube-hover.svg" alt="Logo YouTube sélectionné" class="absolute opacity-0 hover:opacity-100 size-16">
-                    </a>
-                </div>
-                <div class="flex">
-                    <a href="https://linktr.ee/gaspardtex" target="_blank">
-                        <img src="/src/img/logo-savoirplus.svg" alt="Logo en savoir plus" class="absolute opacity-100 hover:opacity-0 size-16">
-                    </a>
-                    <a href="https://linktr.ee/gaspardtex" target="_blank">
-                        <img src="/src/img/logo-savoirplus-hover.svg" alt="Logo en savoir plus sélectionné" class="absolute opacity-0 hover:opacity-100 size-16">
-                    </a>
-                </div>
-            </div>
-            <RouterLink to="/legalnotice"><p class="flex mt-40 justify-center text-white font-rubik text-sm">©2024 GASPARD BONDY</p></RouterLink>
+            <RouterLink to="/legalnotice" class="w-full">
+                <p class="text-white font-rubik text-sm text-center mt-32 md:mt-20 lg:mt-40">©2024 GASPARD BONDY</p>
+            </RouterLink>
         </nav>
     </Transition>
 </template>
