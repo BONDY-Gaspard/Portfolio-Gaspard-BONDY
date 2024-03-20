@@ -27,13 +27,13 @@ router.afterEach(() => {
                 <RouterLink to="/"><img src="/src/img/logo_portfolio.svg" alt="Logo Portfolio Gaspard BONDY" class="w-9 h-9 lg:w-14 lg:h-14"></RouterLink>
                 <div class="hidden md:flex space-x-10 whitespace-nowrap">
                     <RouterLink to="/myprojects">
-                        <p>MY PROJECT</p>
+                        <p class="hover:text-red-700">MY PROJECT</p>
                     </RouterLink>
                     <RouterLink to="/aboutme">
-                        <p>ABOUT ME</p>
+                        <p class="hover:text-red-700">ABOUT ME</p>
                     </RouterLink>
                     <RouterLink to="/contact">
-                        <p>CONTACT</p>
+                        <p class="hover:text-red-700">CONTACT</p>
                     </RouterLink>
                 </div>
                 <div class="flex">
