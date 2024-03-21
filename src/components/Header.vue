@@ -50,7 +50,7 @@ router.afterEach(() => {
         <nav v-show="menuIsOpen" class="bg-red-700 absolute z-50 inset-0">
             <img src="/src/img/croix-menu.webp" alt="croix" class="size-16 mr-0 ml-auto cursor-pointer" @pointerdown="menuIsOpen = false">
                 <ul class="mx-5 text-white font-rubik font-bold text-3xl space-y-5 mt-36">
-                    <li>
+                    <li class="group transition-transform duration-300 ease-in-out transform hover:scale-90">
                         <RouterLink to="/myprojects">
                             <div class="mx-5">
                                 <div class="flex items-center justify-between">
@@ -61,7 +61,7 @@ router.afterEach(() => {
                             </div>
                         </RouterLink>
                     </li>
-                    <li>
+                    <li class="group transition-transform duration-300 ease-in-out transform hover:scale-90">
                         <RouterLink to="/aboutme">
                             <div class="mx-5">
                                 <div class="flex items-center justify-between">
@@ -72,7 +72,7 @@ router.afterEach(() => {
                             </div>
                         </RouterLink>
                     </li>
-                    <li>
+                    <li class="group transition-transform duration-300 ease-in-out transform hover:scale-90">
                         <RouterLink to="/contact">
                             <div class="mx-5">
                                 <div class="flex items-center justify-between">

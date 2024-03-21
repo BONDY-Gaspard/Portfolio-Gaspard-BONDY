@@ -33,7 +33,7 @@ const currentImage = computed(() => images.value[currentIndex.value]);
             <router-link :to="{ name: 'projectpage', params: { projectId: currentImage.id, projectName: currentImage.projectName } }" class="text-blue-500 hover:underline">En savoir plus</router-link>
         </div>
       </div>
-      <div class="mt-16 justify-between space-x-28 text-center">
+      <div class="mt-16 justify-between space-x-28 text-center md:mt-40">
         <button @click="prev" class="text-black opacity-50 hover:text-red-700 hover:opacity-100 font-bold py-2 px-4"><</button>
         <button @click="next" class="text-black opacity-50 hover:text-red-700 hover:opacity-100 font-bold py-2 px-4">></button>
       </div>
