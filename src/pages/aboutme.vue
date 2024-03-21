@@ -21,9 +21,9 @@ const nextSlide = () => {
 
 <template>
     <Header />
-    <h1 class="text-black text-2xl font-bold font-rubik m-5">About me</h1>
+    <h1 class="text-black text-2xl font-bold font-rubik m-5 md:hidden">About me</h1>
       <component :is="currentComponent" :key="currentIndex" />
-    <div class="my-16 justify-between space-x-28 text-center">
+    <div class="my-16 justify-between space-x-28 text-center md:pb-14 md:mt-40">
       <button @click="prevSlide" class="text-black opacity-50 hover:text-red-700 hover:opacity-100 font-bold py-2 px-4"><</button>
       <button @click="nextSlide" class="text-black opacity-50 hover:text-red-700 hover:opacity-100 font-bold py-2 px-4">></button>
     </div>
