@@ -4,7 +4,7 @@ import Carrousel from '@/components/carrousel.vue';
 
 <template>
     <Header />
-    <h1 class="text-black text-2xl font-bold font-rubik m-5">My projects</h1>
+    <h1 class="text-black text-2xl font-bold font-rubik m-5 md:hidden">My projects</h1>
     <Carrousel class="my-12" />
     <Footer />
 </template>

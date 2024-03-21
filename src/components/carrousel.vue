@@ -27,7 +27,7 @@ const currentImage = computed(() => images.value[currentIndex.value]);
     <div>
       <div class="carousel">
         <img :src="currentImage.src" alt="Image carrousel" class="m-auto">
-        <div class="mx-12 mt-5">
+        <div class="mx-12 mt-5 md:mx-0 md:ml-[821px]">
             <h2 class="text-xl font-bold font-rubik">{{ currentImage.title }}</h2>
             <p class="text-base font-rubik">{{ currentImage.description }}</p>
             <router-link :to="{ name: 'projectpage', params: { projectId: currentImage.id, projectName: currentImage.projectName } }" class="text-blue-500 hover:underline">En savoir plus</router-link>
