@@ -80,11 +80,11 @@ const project = projects.find(p => p.name === projectName);
 <template>
     <Header />
     <div class="pb-10">
-      <h1 class="text-black text-2xl font-bold font-rubik m-5">{{ project.title }}</h1>
-      <img :src="project.thumbnail" alt="Miniature du projet" class="m-auto">
-      <p class="text-base font-rubik mx-6 mt-10">{{ project.description }}</p>
+      <h1 class="text-black text-2xl font-bold font-rubik m-5 md:hidden">{{ project.title }}</h1>
+      <img :src="project.thumbnail" alt="Miniature du projet" class="m-auto md:mt-20">
+      <p class="text-base font-rubik mx-6 mt-10 md:text-center">{{ project.description }}</p>
       <div v-for="image in project.images" :key="image" class="mt-12">
-        <img :src="image" alt="Image du projet">
+        <img :src="image" alt="Image du projet" class="md:m-auto">
       </div>
     </div>
     <Footer />
