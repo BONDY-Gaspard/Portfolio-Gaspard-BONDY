@@ -30,7 +30,7 @@ const currentImage = computed(() => images.value[currentIndex.value]);
         <div class="mx-12 mt-5 md:mx-0 md:ml-[821px]">
             <h2 class="text-xl font-bold font-rubik">{{ currentImage.title }}</h2>
             <p class="text-base font-rubik">{{ currentImage.description }}</p>
-            <router-link :to="{ name: 'projectpage', params: { projectId: currentImage.id, projectName: currentImage.projectName } }" class="text-blue-500 hover:underline">En savoir plus</router-link>
+            <router-link :to="{ name: 'projectpage', params: { projectId: currentImage.projectName, projectName: currentImage.projectName } }" class="text-blue-500 hover:underline">En savoir plus</router-link>
         </div>
       </div>
       <div class="mt-16 justify-between space-x-28 text-center md:mt-40">
