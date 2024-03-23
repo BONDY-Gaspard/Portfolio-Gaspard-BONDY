@@ -1,29 +1,17 @@
-# portfolio
+# Portfolio Gaspard BONDY
 
-This template should help get you started developing with Vue 3 in Vite.
+Prénom : Gaspard
+Nom : BONDY
 
-## Recommended IDE Setup
+- **Lien vers le portfolio :** [Cliquez ici](https://portfolio.gaspardbondy.fr/)
+- **Lien vers le document de présentation :** [Cliquez ici](https://docs.google.com/presentation/d/15TG6wCtD9dSZRvSZGF0t-OG5rw-pfTvE2mDx1Doj9GU/edit?usp=sharing)
+- **Lien vers le repo Github :** [Cliquez ici](https://github.com/BONDY-Gaspard/Portfolio-Gaspard-BONDY)
+- **Lien vers la maquette Figma :** [Cliquez ici](https://www.figma.com/file/AzGbL78RQZSQYQRnhSowLa/Portfolio---Gaspard-BONDY?type=design&node-id=0%3A1&mode=design&t=XO1b0uX4FIuRuyWu-1)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+---
 
-## Customize configuration
+## Contactez-moi
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- **LinkedIn :** [Gaspard BONDY](https://www.linkedin.com/in/gaspardbondy/)
+- **Email :** [contact@gaspardbondy.fr](mailto:contact@gaspardbondy.fr)
+- **Autres réseaux** [Cliquez ici](https://linktr.ee/gaspardtex)
