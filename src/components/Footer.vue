@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <footer>
+    <footer class="relative z-20">
         <nav>
             <a href="/">
                 <img src="/src/img/logo-portfolio-white.svg" alt="Logo Portfolio Gaspard BONDY" class=" size-24 flex m-auto pt-10">

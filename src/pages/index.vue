@@ -33,34 +33,36 @@
             </div>
         </div>
     <!-- Grand écran -->
-    <div class="hidden md:block">
-        <div class="w-[386px] h-[151.85px] left-56 top-32 relative">
+    <div class="hidden md:flex md:flex-col h-screen">
+    <!-- Haut de page avec les salutations et le nom -->
+    <div class="w-[386px] h-[151.85px] left-56 top-32 relative">
             <div class="w-[370.39px] h-[151.85px] left-[15.61px] top-0 absolute bg-white rounded-[32.64px] shadow-md"></div>
             <img class="w-20 left-10 top-6 absolute" src="/src/img/au-revoir-pc.png"/>
             <div class="left-[154.68px] top-[39.74px] absolute text-center text-black text-opacity-50 text-lg font-normal font-rubik">Hello, I am</div>
             <div class="left-[154.68px] top-[61.02px] absolute text-center text-black text-5xl font-bold font-rubik">Gaspard</div>
-        </div>
-        <div class="relative z-20">
-            <div class="absolute top-40 left-[550px] w-[179.71px] px-[27.86px] py-[16.71px] bg-white rounded-2xl justify-center items-center">
-                <div class="text-black text-base font-normal font-['Rubik'] leading-snug">MULTIMEDIA</div>
-                <div class="text-black text-base font-normal font-['Rubik'] leading-snug">COMMUNICATION</div>
-            </div>
-        </div>
-        <div class="flex justify-center items-center h-screen">
-            <div class="relative mx-5 -mt-60">
-                <img src="/src/img/gaspard-pc.webp" alt="Photo Gaspard" class="absolute -mt-36 z-10">
-                <div class="w-[700px] h-[700px] bg-gradient-to-r from-slate-200 via-slate-200 to-slate-300 rounded-full shadow"></div>
-            </div>
-        </div>
-        <img src="/src/img/social-networks-pc.webp" alt="illustration reseaux sociaux" class="relative left-[1400px] -top-[500px] z-20">
-        <img src="/src/img/communication-pc.webp" alt="illustration multimedia" class="relative  left-[1400px] -top-[975px] z-20">
-        <img src="/src/img/multimedia-pc.webp" alt="illustration multimedia" class="relative left-[1250px] -top-[1425px] z-20">
-        <RouterLink to="/legalnotice">
-            <div class="relative left-[1725px] -top-[860px]">
-                <div class="left-0 top-0 absolute text-right text-black text-opacity-25 text-[13px] font-normal font-rubik">©2024 GASPARD BONDY</div>
-                <div class="left-[10px] top-[15px] absolute text-right text-black text-opacity-25 text-[13px] font-normal font-rubik">ALL RIGHTS RESERVED</div>
-            </div>
-        </RouterLink>
     </div>
-    <Footer class="mt-[50px] md:-mt-[708px]" />
+    <div class="relative z-20">
+        <div class="absolute top-[calc(50vh-150px)] left-[calc(50%-400px)] w-[179px] h-[77px] px-6 py-4 bg-white rounded-2xl justify-center items-center">
+            <div class="text-black text-base font-normal font-rubik leading-snug">MULTIMEDIA</div>
+            <div class="text-black text-base font-normal font-rubik leading-snug">COMMUNICATION</div>
+        </div>
+    </div>
+    <!-- Contenu central avec la photo et les cercles -->
+    <div class="flex-1 flex justify-center items-center relative">
+        <img src="/src/img/gaspard-pc.webp" alt="Photo Gaspard" class="z-10">
+        <div class="w-[700px] h-[700px] bg-gradient-to-r from-slate-200 via-slate-200 to-slate-300 rounded-full shadow-lg absolute"></div>
+    </div>
+    <div class="grid grid-cols-3 gap-2 place-content-center absolute right-0 mr-10">
+            <img src="/src/img/multimedia-pc.webp" alt="Multimedia" class="justify-self-center mt-14 ml-20">
+            <img src="/src/img/communication-pc.webp" alt="Communication" class="justify-self-center mt-60">
+            <img src="/src/img/social-networks-pc.webp" alt="Social Networks" class="justify-self-center mt-[600px] -ml-[650px]">
+    </div>
+    <RouterLink to="/legalnotice">
+        <div class="absolute bottom-4 right-4">
+            <div class="text-right text-black text-opacity-25 text-[13px] font-normal font-rubik">©2024 GASPARD BONDY</div>
+            <div class="text-right text-black text-opacity-25 text-[13px] font-normal font-rubik">ALL RIGHTS RESERVED</div>
+        </div>
+    </RouterLink>
+</div>
+    <Footer class="mt-[50px] md:-mt-20" />
 </template>
