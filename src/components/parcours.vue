@@ -7,47 +7,47 @@
         <div class="w-[226.93px] h-[226.97px] relative m-auto my-12 md:m-0 md:w-[340px] md:h-[340px]">
         <div class="w-[61.08px] h-[61.08px] left-[165.86px] top-0 absolute group transition-transform duration-300 ease-in-out transform hover:scale-110 md:w-[92px] md:h-[92px] md:left-[248px] md:top-[0px]">
             <div class="w-[61.08px] h-[61.08px] left-0 top-0 absolute bg-emerald-500 bg-opacity-25 rounded-full md:w-[92px] md:h-[92px]"></div>
-            <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.66px] absolute md:w-[44px] md:h-[44px] md:left-[24px] md:top-[16px]" src="/src/img/about-me/figma-aboutme.svg" />
+            <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.66px] absolute md:w-[44px] md:h-[44px] md:left-[24px] md:top-[16px]" src="/src/img/figma-aboutme.svg" />
             <div class="left-[23.69px] top-[45.02px] absolute text-black text-[7.70px] font-normal font-['Rubik'] md:left-[35px] md:top-[68px] md:text-[11px]">80%</div>
         </div>
         <div class="w-[61.08px] h-[61.08px] left-[82.93px] top-0 absolute group transition-transform duration-300 ease-in-out transform hover:scale-110 md:w-[92px] md:h-[92px] md:left-[124px] md:top-0">
             <div class="w-[61.08px] h-[61.08px] left-0 top-0 absolute bg-amber-500 bg-opacity-50 rounded-full md:w-[92px] md:h-[92px]"></div>
-            <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.66px] absolute md:w-[44px] md:h-[44px] md:left-[24px] md:top-[16px]" src="/src/img/about-me/illustrator-aboutme.svg" />
+            <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.66px] absolute md:w-[44px] md:h-[44px] md:left-[24px] md:top-[16px]" src="/src/img/illustrator-aboutme.svg" />
             <div class="left-[23.69px] top-[45.02px] absolute text-black text-[7.70px] font-normal font-['Rubik'] md:left-[35px] md:top-[68px] md:text-[11px]">75%</div>
         </div>
         <div class="w-[61.08px] h-[61.08px] left-0 top-0 absolute group transition-transform duration-300 ease-in-out transform hover:scale-110 md:w-[92px] md:h-[92px]">
             <div class="w-[61.08px] h-[61.08px] left-0 top-0 absolute bg-sky-500 bg-opacity-25 rounded-full md:w-[92px] md:h-[92px]"></div>
-            <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.66px] absolute md:w-[44px] md:h-[44px] md:left-[24px] md:top-[16px]" src="/src/img/about-me/photoshop-aboutme.svg" />
+            <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.66px] absolute md:w-[44px] md:h-[44px] md:left-[24px] md:top-[16px]" src="/src/img/photoshop-aboutme.svg" />
             <div class="left-[23.69px] top-[45.02px] absolute text-black text-[7.70px] font-normal font-['Rubik'] md:left-[35px] md:top-[68px] md:text-[11px]">80%</div>
         </div>
         <div class="w-[61.08px] h-[61.08px] left-[165.86px] top-[82.93px] absolute group transition-transform duration-300 ease-in-out transform hover:scale-110 md:w-[92px] md:h-[92px] md:left-[248px] md:top-[124px]">
             <div class="w-[61.08px] h-[61.08px] left-0 top-0 absolute bg-rose-500 bg-opacity-50 rounded-full md:w-[92px] md:h-[92px]"></div>
-            <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.66px] absolute md:w-[44px] md:h-[44px] md:left-[24px] md:top-[16px]" src="/src/img/about-me/indesign-aboutme.svg" />
+            <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.66px] absolute md:w-[44px] md:h-[44px] md:left-[24px] md:top-[16px]" src="/src/img/indesign-aboutme.svg" />
             <div class="left-[23.69px] top-[45.02px] absolute text-black text-[7.70px] font-normal font-['Rubik'] md:left-[35px] md:top-[68px] md:text-[11px]">70%</div>
         </div>
         <div class="w-[61.08px] h-[61.08px] left-[82.93px] top-[82.93px] absolute group transition-transform duration-300 ease-in-out transform hover:scale-110 md:w-[92px] md:h-[92px] md:left-[124px] md:top-[124px]">
             <div class="w-[61.08px] h-[61.08px] left-0 top-0 absolute bg-violet-400 bg-opacity-50 rounded-full md:w-[92px] md:h-[92px]"></div>
-            <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.66px] absolute md:w-[44px] md:h-[44px] md:left-[24px] md:top-[16px]" src="/src/img/about-me/after-effect-aboutme.svg" />
+            <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.66px] absolute md:w-[44px] md:h-[44px] md:left-[24px] md:top-[16px]" src="/src/img/after-effect-aboutme.svg" />
             <div class="left-[23.69px] top-[45.02px] absolute text-black text-[7.70px] font-normal font-['Rubik'] md:left-[35px] md:top-[68px] md:text-[11px]">75%</div>
         </div>
         <div class="w-[61.08px] h-[61.08px] left-[-0px] top-[82.94px] absolute group transition-transform duration-300 ease-in-out transform hover:scale-110 md:w-[92px] md:h-[92px] md:left-0 md:top-[124px]">
             <div class="w-[61.08px] h-[61.08px] left-0 top-0 absolute bg-violet-400 bg-opacity-50 rounded-full md:w-[92px] md:h-[92px]"></div>
-            <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.65px] absolute md:w-[44px] md:h-[44px] md:left-[24px] md:top-[16px]" src="/src/img/about-me/premiere-pro-aboutme.svg" />
+            <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.65px] absolute md:w-[44px] md:h-[44px] md:left-[24px] md:top-[16px]" src="/src/img/premiere-pro-aboutme.svg" />
             <div class="left-[23.69px] top-[45px] absolute text-black text-[7.70px] font-normal font-['Rubik'] md:left-[35px] md:top-[68px] md:text-[11px]">80%</div>
         </div>
         <div class="w-[61.08px] h-[61.08px] left-[-0px] top-[165.89px] absolute group transition-transform duration-300 ease-in-out transform hover:scale-110 md:w-[92px] md:h-[92px] md:left-0 md:top-[248px]">
             <div class="w-[61.08px] h-[61.08px] left-0 top-0 absolute bg-orange-500 bg-opacity-50 rounded-full md:w-[92px] md:h-[92px]"></div>
-            <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.63px] absolute md:w-[44px] md:h-[44px] md:left-[24px] md:top-[16px]" src="/src/img/about-me/html-aboutme.svg" />
+            <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.63px] absolute md:w-[44px] md:h-[44px] md:left-[24px] md:top-[16px]" src="/src/img/html-aboutme.svg" />
             <div class="left-[23.69px] top-[44.99px] absolute text-black text-[7.70px] font-normal font-['Rubik'] md:left-[35px] md:top-[68px] md:text-[11px]">92%</div>
         </div>
         <div class="w-[61.08px] h-[61.08px] left-[82.93px] top-[165.86px] absolute group transition-transform duration-300 ease-in-out transform hover:scale-110 md:w-[92px] md:h-[92px] md:left-[124px] md:top-[248px]">
             <div class="w-[61.08px] h-[61.08px] left-0 top-0 absolute bg-sky-500 bg-opacity-50 rounded-full md:w-[92px] md:h-[92px]"></div>
-            <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.66px] absolute md:w-[44px] md:h-[44px] md:left-[24px] md:top-[16px]" src="/src/img/about-me/css-aboutme.svg" />
+            <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.66px] absolute md:w-[44px] md:h-[44px] md:left-[24px] md:top-[16px]" src="/src/img/css-aboutme.svg" />
             <div class="left-[23.69px] top-[45.02px] absolute text-black text-[7.70px] font-normal font-['Rubik'] md:left-[35px] md:top-[68px] md:text-[11px]">80%</div>
         </div>
         <div class="w-[61.08px] h-[61.08px] left-[165.86px] top-[165.86px] absolute group transition-transform duration-300 ease-in-out transform hover:scale-110 md:w-[92px] md:h-[92px] md:left-[248px] md:top-[248px]">
             <div class="w-[61.08px] h-[61.08px] left-0 top-0 absolute bg-sky-700 bg-opacity-50 rounded-full md:w-[92px] md:h-[92px]"></div>
-            <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.66px] absolute md:w-[44px] md:h-[44px] md:left-[24px] md:top-[16px]" src="/src/img/about-me/wordpress-aboutme.svg" />
+            <img class="w-[29.62px] h-[29.62px] left-[15.99px] top-[10.66px] absolute md:w-[44px] md:h-[44px] md:left-[24px] md:top-[16px]" src="/src/img/wordpress-aboutme.svg" />
             <div class="left-[23.69px] top-[45.02px] absolute text-black text-[7.70px] font-normal font-['Rubik'] md:left-[35px] md:top-[68px] md:text-[11px]">75%</div>
         </div>
     </div>

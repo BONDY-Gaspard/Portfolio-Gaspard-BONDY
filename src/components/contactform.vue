@@ -55,7 +55,7 @@ const submitForm = () => {
     <div class="p-12 mx-6 md:flex md:justify-center md:mt-10 group transition-transform duration-300 ease-in-out transform hover:scale-110">
       <button type="submit" class="w-[112.47px] h-[34.08px] bg-red-700 text-white rounded-full flex items-center -space-x-4 gap-6 font-rubik text-lg font-normal">
         <p class="ml-5">Send</p>
-        <img src="/src/img/contact/send-contact.svg" class="" alt="Send button">
+        <img src="/src/img/send-contact.svg" class="" alt="Send button">
       </button>
     </div>
     <transition name="fade" enter-active-class="fade-enter-active" leave-active-class="fade-leave-active" enter-class="fade-enter" leave-to-class="fade-leave-to">
