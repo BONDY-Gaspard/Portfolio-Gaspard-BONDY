@@ -4,7 +4,7 @@
 
 <template>
     <div class="md:flex md:items-center md:mt-20 md:-space-x-12 md:mx-10">
-        <img src="/src/img/about-me/photo-gaspard.svg" alt="Photo Gaspard" class="m-auto mt-12 md:size-[400px]">
+        <img src="/src/img/photo-gaspard-aboutme.svg" alt="Photo Gaspard" class="m-auto mt-12 md:size-[400px]">
         <div class="my-12 mx-10 space-y-6">
             <p>Let me introduce myself, I'm Gaspard, I'm 19 and I'm a student at BUT MMI in Montbéliard.</p>
             <p>My main passion is video games, and I love playing different games.</p>
