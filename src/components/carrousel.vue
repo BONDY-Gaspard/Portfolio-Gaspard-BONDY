@@ -2,10 +2,10 @@
 import { ref, computed } from 'vue';
 
 const images = ref([
-  { src: '/src/img/projet/refontemmi.webp', title: 'MMI redesign site', description: 'Project to redesign the Montbeliard MMI', projectName: 'mmi-redesign' },
-  { src: '/src/img/projet/benevers.webp', title: 'Benevers', description: 'Project on the world of volunteering', projectName: 'benevers' },
-  { src: '/src/img/projet/backtoback.webp', title: 'Back To Back', description: 'Project inspired by the song "Note pour trop tard" by Orelsan', projectName: 'back-to-back' },
-  { src: '/src/img/projet/gaspardtex.webp', title: 'GaspardTex', description: 'Social networking content creation project', projectName: 'gaspardtex' }
+  { src: '/src/img/refontemmi.webp', title: 'MMI redesign site', description: 'Project to redesign the Montbeliard MMI', projectName: 'mmi-redesign' },
+  { src: '/src/img/benevers.webp', title: 'Benevers', description: 'Project on the world of volunteering', projectName: 'benevers' },
+  { src: '/src/img/backtoback.webp', title: 'Back To Back', description: 'Project inspired by the song "Note pour trop tard" by Orelsan', projectName: 'back-to-back' },
+  { src: '/src/img/gaspardtex.webp', title: 'GaspardTex', description: 'Social networking content creation project', projectName: 'gaspardtex' }
 ]);
 
 const currentIndex = ref(0);
