@@ -47,10 +47,10 @@
                     </a>
                 </div>
                 <div class="flex">
-                    <a href="https://linktr.ee/gaspardtex" target="_blank">
+                    <a href="https://bento.me/gaspardbondy" target="_blank">
                         <img src="/src/img/logo-ensavoir-footer.svg" alt="Logo en savoir plus" class="absolute opacity-100 hover:opacity-0 size-12">
                     </a>
-                    <a href="https://linktr.ee/gaspardtex" target="_blank">
+                    <a href="https://bento.me/gaspardbondy" target="_blank">
                         <img src="/src/img/logo-ensavoir-hover-footer.svg" alt="Logo en savoir plus sélectionné" class="relative opacity-0 hover:opacity-100 size-12">
                     </a>
                 </div>
