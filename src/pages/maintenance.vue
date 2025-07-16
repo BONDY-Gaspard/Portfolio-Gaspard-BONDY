@@ -1,6 +1,6 @@
 <template>
-    <div class="p-10 pb-12 bg-red-700 overflow-hidden">
-        <div class="flex flex-col items-center justify-center text-center mt-20 px-4">
+    <div class="p-10 pb-60 bg-red-700 overflow-hidden">
+        <div class="flex flex-col items-center justify-center text-center mt-40 px-4">
             <h1 class="text-8xl font-bold mb-6 text-white">Maintenance en cours</h1>
             <p class="text-4xl text-white mt-14">Mon portfolio est actuellement en cours de mise à jour.</p>
             <p class="text-xl text-white mt-32">En attendant, retrouvez-moi sur les réseaux sociaux :</p>
