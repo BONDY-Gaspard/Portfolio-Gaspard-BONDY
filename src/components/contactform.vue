@@ -14,15 +14,15 @@ const errorMessage = ref('');
 
 const submitForm = () => {
   emailjs.send(
-    'import.meta.env.EMAILJS_SERVICE_ID',
-    'import.meta.env.EMAILJS_TEMPLATE_ID',
+    'import.meta.env.VITE_EMAILJS_SERVICE_ID',
+    'import.meta.env.VITE_EMAILJS_TEMPLATE_ID',
     {
       from_name: formData.value.name,
       from_email: formData.value.email,
       subject: formData.value.subject,
       message: formData.value.message,
     },
-    'import.meta.env.EMAILJS_PUBLIC_KEY'
+    'import.meta.env.VITE_EMAILJS_PUBLIC_KEY'
   )
   .then(() => {
     confirmationMessage.value = 'Votre message a été envoyé avec succès !';

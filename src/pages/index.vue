@@ -59,7 +59,7 @@
     </div>
     <RouterLink to="/legalnotice">
         <div class="absolute bottom-4 right-4">
-            <div class="text-right text-black text-opacity-25 text-[13px] font-normal font-rubik">©2024 GASPARD BONDY</div>
+            <div class="text-right text-black text-opacity-25 text-[13px] font-normal font-rubik">©2026 GASPARD BONDY</div>
             <div class="text-right text-black text-opacity-25 text-[13px] font-normal font-rubik">ALL RIGHTS RESERVED</div>
         </div>
     </RouterLink>
