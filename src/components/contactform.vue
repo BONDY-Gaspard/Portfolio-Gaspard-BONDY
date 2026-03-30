@@ -14,15 +14,15 @@ const errorMessage = ref('');
 
 const submitForm = () => {
   emailjs.send(
-    'EMAILJS_SERVICE_ID',
-    'EMAILJS_TEMPLATE_ID',
+    'import.meta.env.EMAILJS_SERVICE_ID',
+    'import.meta.env.EMAILJS_TEMPLATE_ID',
     {
       from_name: formData.value.name,
       from_email: formData.value.email,
       subject: formData.value.subject,
       message: formData.value.message,
     },
-    'EMAILJS_PUBLIC_KEY'
+    'import.meta.env.EMAILJS_PUBLIC_KEY'
   )
   .then(() => {
     confirmationMessage.value = 'Votre message a été envoyé avec succès !';
@@ -38,8 +38,8 @@ const submitForm = () => {
 
 <template>
   <form @submit.prevent="submitForm" class="mt-12 mx-16 md:mx-96">
-    <div class="space-y-6">
-      <div class="md:flex md:justify-center md:space-x-12">
+    <div class="space-y-12">
+      <div class="space-y-8 md:flex md:justify-center md:space-x-12 md:space-y-0">
         <div class="relative z-0">
           <input v-model="formData.name" type="text" name="name" class="peer block w-60 appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-red-700 focus:outline-none focus:ring-0" placeholder=" " />
           <label label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-red-700 peer-focus:dark:text-red-700">Name</label>
@@ -68,6 +68,9 @@ const submitForm = () => {
         <div v-if="confirmationMessage" class="fixed bottom-0 left-0 right-0 bg-green-500 text-white py-4 text-center font-rubik z-20">
           <p class="font-bold font-rubik">{{ confirmationMessage }}</p>
         </div>
+        
+    </transition>
+    <transition name="fade" enter-active-class="fade-enter-active" leave-active-class="fade-leave-active" enter-class="fade-enter" leave-to-class="fade-leave-to">
         <div v-if="errorMessage" class="fixed bottom-0 left-0 right-0 bg-red-600 text-white py-4 text-center z-20">
           <p class="font-bold font-rubik">{{ errorMessage }}</p>
         </div>
