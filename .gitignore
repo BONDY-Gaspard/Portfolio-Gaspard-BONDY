@@ -30,3 +30,5 @@ coverage
 # Environment variables
 .env
 .env.*
+.env.production
+.env.production*
