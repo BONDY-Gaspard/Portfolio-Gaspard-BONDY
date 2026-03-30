@@ -31,16 +31,16 @@
                     </a>
                 </div>
                 <div class="relative">
-                    <a href="https://bento.me/gaspardbondy" target="_blank">
+                    <a href="https://www.karde.me/gaspardbondy" target="_blank">
                         <img src="/src/img/logo-savoirplus.svg" alt="Logo en savoir plus" class="opacity-100 hover:opacity-0 size-28">
                     </a>
-                    <a href="https://bento.me/gaspardbondy" target="_blank" class="absolute inset-0">
+                    <a href="https://www.karde.me/gaspardbondy" target="_blank" class="absolute inset-0">
                         <img src="/src/img/logo-savoirplus-hover.svg" alt="Logo en savoir plus sélectionné" class="opacity-0 hover:opacity-100 size-28">
                     </a>
                 </div>
             </div>
             <!-- <RouterLink to="/legalnotice" class="w-full"> -->
-                <p class="text-white font-rubik text-sm text-center mt-32 md:mt-20 lg:mt-40">©2025 GASPARD BONDY</p>
+                <p class="text-white font-rubik text-sm text-center mt-32 md:mt-20 lg:mt-40">©2026 GASPARD BONDY</p>
             <!-- </RouterLink> -->
         </div>
 </template>
