@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
-import emailjs from '@emailjs/browser';
+
+declare const emailjs: any;
 
 const formData = ref({
   name: '',
