@@ -5,8 +5,8 @@ import contactform from '../components/contactform.vue'
 <template>
     <Header />
     <h1 class="text-black text-2xl font-bold font-rubik m-5 md:hidden">Contact</h1>
-    <div class="md:flex md:mx-[650px] md:items-center md:mt-20 md:space-x-[93px] md:mb-40">
-        <div class="w-[287px] h-[78.56px] relative m-auto mt-10 md:m-0 group transition-transform duration-300 ease-in-out transform hover:scale-110">
+    <div class="flex justify-center items-center mt-10 md:mt-20 mb-10 md:mb-40">
+        <div class="w-[287px] h-[78.56px] relative group transition-transform duration-300 ease-in-out transform hover:scale-110">
             <a href="mailto:contact@gaspardbondy.fr" target="_blank">
                 <div class="w-[287px] h-[78.56px] left-0 top-0 absolute bg-white rounded-lg shadow"></div>
                     <p class="w-[152.93px] h-[11.52px] left-[96.36px] top-[35.61px] absolute text-black text-xs font-normal font-rubik">contact@gaspardbondy.fr</p>
