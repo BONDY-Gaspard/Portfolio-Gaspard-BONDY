@@ -1,9 +1,12 @@
 <template>
     <div class="p-10 pb-60 bg-red-700 overflow-hidden">
         <div class="flex flex-col items-center justify-center text-center mt-40 px-4">
-            <h1 class="text-8xl font-bold mb-6 text-white">Maintenance en cours</h1>
-            <p class="text-4xl text-white mt-14">Mon portfolio est actuellement en cours de mise à jour.</p>
-            <p class="text-xl text-white mt-32">En attendant, retrouvez-moi sur les réseaux sociaux :</p>
+            <h1 class="text-4xl md:text-8xl font-bold mb-6 text-white">Maintenance en cours</h1>
+            <p class="text-xl md:text-4xl text-white mt-14">Mon portfolio est actuellement en cours de mise à jour.</p>
+            <p class="text-lg md:text-4xl text-white mt-14 md:mt-32">En attendant, retrouvez-moi sur les réseaux sociaux :</p>
+            <div class="md:hidden text-xl md:text-4xl text-white mt-5 underline">
+                    <a href="https://www.karde.me/gaspardbondy" target="_blank">karde.me/gaspardbondy</a>
+            </div>
         </div>
         <div class="hidden sm:flex justify-center items-center space-x-40 mt-20 w-full ">
                 <div class="relative">
