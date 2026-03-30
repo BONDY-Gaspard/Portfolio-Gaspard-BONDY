@@ -16,6 +16,9 @@ const confirmationMessage = ref('');
 const errorMessage = ref('');
 
 const submitForm = () => {
+  // console.log(import.meta.env.VITE_EMAILJS_PUBLIC_KEY)
+  // console.log(import.meta.env.VITE_EMAILJS_SERVICE_ID)
+  // console.log(import.meta.env.VITE_EMAILJS_TEMPLATE_ID)
   emailjs.send(
     import.meta.env.VITE_EMAILJS_SERVICE_ID,
     import.meta.env.VITE_EMAILJS_TEMPLATE_ID,

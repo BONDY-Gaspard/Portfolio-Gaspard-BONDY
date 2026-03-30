@@ -8,7 +8,7 @@ import ProjectPage from '@/pages/projectpage.vue'
 import Maintenance from '@/pages/maintenance.vue'
 // ... autres imports
 
-const maintenanceMode = false // ⬅️ change à false pour désactiver
+const maintenanceMode = true // ⬅️ change à false pour désactiver
 
 const routes = maintenanceMode
   ? [
