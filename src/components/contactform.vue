@@ -14,15 +14,15 @@ const errorMessage = ref('');
 
 const submitForm = () => {
   emailjs.send(
-    'import.meta.env.VITE_EMAILJS_SERVICE_ID',
-    'import.meta.env.VITE_EMAILJS_TEMPLATE_ID',
+    import.meta.env.VITE_EMAILJS_SERVICE_ID,
+    import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
     {
-      from_name: formData.value.name,
-      from_email: formData.value.email,
-      subject: formData.value.subject,
+      name: formData.value.name,
+      email: formData.value.email,
+      title: formData.value.subject,
       message: formData.value.message,
     },
-    'import.meta.env.VITE_EMAILJS_PUBLIC_KEY'
+    import.meta.env.VITE_EMAILJS_PUBLIC_KEY
   )
   .then(() => {
     confirmationMessage.value = 'Votre message a été envoyé avec succès !';
@@ -41,11 +41,11 @@ const submitForm = () => {
     <div class="space-y-12">
       <div class="space-y-8 md:flex md:justify-center md:space-x-12 md:space-y-0">
         <div class="relative z-0">
-          <input v-model="formData.name" type="text" name="name" class="peer block w-60 appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-red-700 focus:outline-none focus:ring-0" placeholder=" " />
-          <label label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-red-700 peer-focus:dark:text-red-700">Name</label>
+          <input v-model="formData.name" type="text" name="name" required class="peer block w-60 appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-red-700 focus:outline-none focus:ring-0" placeholder=" " />
+          <label label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-red-700 peer-focus:dark:text-red-700">Name*</label>
         </div>
         <div class="relative z-0">
-          <input v-model="formData.email" type="text" name="email" required class="peer block w-60 appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-red-700 focus:outline-none focus:ring-0" placeholder=" " />
+          <input v-model="formData.email" type="email" name="email" required class="peer block w-60 appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-red-700 focus:outline-none focus:ring-0" placeholder=" " />
           <label class="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-red-700 peer-focus:dark:text-red-700">Email*</label>
         </div>
         <div class="relative z-0">
