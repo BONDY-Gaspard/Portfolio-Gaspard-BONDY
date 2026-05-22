@@ -22,8 +22,8 @@
             <img src="/src/img/multimedia.webp" alt="illustration multimedia" class="ml-10">
             <img src="/src/img/communication.webp" alt="illustration multimedia" class="-mt-24 ml-60">
             <div class="relative mx-5">
-                <img src="/src/img/gaspard.webp" alt="Photo Gaspard" class="absolute -mt-14">
-                <div class="w-[341.68px] h-[341.68px] bg-gradient-to-r from-slate-200 via-slate-200 to-slate-300 rounded-full shadow m-auto"></div>
+                <img src="/src/img/gaspard-mobile.webp" alt="Photo Gaspard" class="absolute">
+                <div class="w-[336px] h-[336px] bg-gradient-to-r from-slate-200 via-slate-200 to-slate-300 rounded-full shadow m-auto"></div>
             </div>
             <div class="w-[35px] h-[35px] relative m-auto animate-bounce -mt-10 lg:hidden">
                 <RouterLink to="/myprojects">
@@ -35,7 +35,7 @@
     <!-- Grand écran -->
     <div class="hidden md:flex md:flex-col h-screen">
     <!-- Haut de page avec les salutations et le nom -->
-    <div class="w-[386px] h-[151.85px] left-56 top-32 relative">
+    <div class="w-[386px] h-[151.85px] left-56 top-32 relative z-20">
             <div class="w-[370.39px] h-[151.85px] left-[15.61px] top-0 absolute bg-white rounded-[32.64px] shadow-md"></div>
             <img class="w-20 left-10 top-6 absolute" src="/src/img/au-revoir-pc.png"/>
             <div class="left-[154.68px] top-[39.74px] absolute text-center text-black text-opacity-50 text-lg font-normal font-rubik">Hello, I am</div>
@@ -49,13 +49,14 @@
     </div>
     <!-- Contenu central avec la photo et les cercles -->
     <div class="flex-1 flex justify-center items-center relative">
-        <img src="/src/img/gaspard-pc.webp" alt="Photo Gaspard" class="z-10">
-        <div class="w-[700px] h-[700px] bg-gradient-to-r from-slate-200 via-slate-200 to-slate-300 rounded-full shadow-lg absolute"></div>
+        <!-- <img src="/src/img/gaspard-pc.webp" alt="Photo Gaspard" class="z-10"> -->
+        <img src="/src/img/Gaspard-accueil.webp" alt="Photo Gaspard" class="z-10 w-[680px] h-[680px] mb-40">
+        <div class="w-[700px] h-[700px] bg-gradient-to-r from-slate-200 via-slate-200 to-slate-300 rounded-full shadow-lg absolute mb-40"></div>
     </div>
-    <div class="grid grid-cols-3 gap-2 place-content-center absolute right-0 mr-10">
-            <img src="/src/img/multimedia-pc.webp" alt="Multimedia" class="justify-self-center mt-14 ml-20">
+    <div class="grid grid-cols-3 gap-2 place-content-center absolute right-0">
+            <img src="/src/img/multimedia-pc.webp" alt="Multimedia" class="justify-self-center mt-14 -mr-36">
             <img src="/src/img/communication-pc.webp" alt="Communication" class="justify-self-center mt-60">
-            <img src="/src/img/social-networks-pc.webp" alt="Social Networks" class="justify-self-center mt-[600px] -ml-[650px]">
+            <img src="/src/img/social-networks-pc.webp" alt="Social Networks" class="justify-self-center mt-[600px] -ml-[800px]">
     </div>
     <RouterLink to="/legalnotice">
         <div class="absolute bottom-4 right-4">
