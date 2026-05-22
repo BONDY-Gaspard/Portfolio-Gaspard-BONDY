@@ -6,6 +6,21 @@ const projectName = route.params.projectName;
 
 const projects = [
   { 
+    name: 'soiree-canap',
+    title: 'Soirée Canap',
+    thumbnail: '/soireecanap.webp',
+    description: "Soirée Canap is a talk show launched in January 2023 on Twitch by a small team of students and designed to push our creative and technical boundaries. Born out of a desire to build on our previous audiovisual projects, the concept brings together a multidisciplinary team united by a single goal: to produce an ambitious, structured format entirely created by students. Preparation, scriptwriting, art direction, communication, technical production… In 2025, for its fifth edition, the project consisted of 20 volunteers and helped bring to life a show broadcast live on stage from the Salle des Bains Douches in Montbéliard, in front of a live audience and via livestream.",
+    images: [
+      '/cover-soireecanap.webp',
+      '/regie_video_projet_soiree_canap.webp',
+      '/public_projet_soiree_canap.webp',
+      '/040_soiree_canap_5.webp',
+      '/123_soiree_canap_5.webp',
+      '/116_soiree_canap_5.webp',
+      '/053_soiree_canap_5.webp',
+    ],
+  },
+  { 
     name: 'mmi-redesign',
     title: 'MMI redesign site',
     thumbnail: '/refontemmi.webp',
